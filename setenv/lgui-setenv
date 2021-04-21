@@ -1,0 +1,15 @@
+export LD_LIBRARY_PATH=/usr/local/lgui/lib:$LD_LIBRARY_PATH
+export LGUI_HOME=/usr/local/lgui
+setterm -blength 0
+gpm -k
+
+echo
+echo ---------------------------------------------
+echo Please Check environment variables of lgui
+echo
+echo LD_LIBRARY_PATH	= $LD_LIBRARY_PATH
+echo LGUI_HOME 			= $LGUI_HOME
+
+echo ---------------------------------------------
+
+echo
